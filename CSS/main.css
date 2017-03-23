@@ -32,14 +32,14 @@ h2 {
 
 button {
 	display: inline-block;
-	padding: 22px 50px;
+	padding: 24px 60px;
 	float: right;
 
 	background: #2D1FE8;
 	color: #FFFFFF;
 
 	border: 0;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: medium;
 }
 
@@ -72,7 +72,7 @@ textarea {
 	font-size: 20px;
 	outline: none;
 	
-	line-height: 1.8;
+	line-height: 1.9;
 }
 
 
@@ -90,10 +90,23 @@ p {
 	border: 6px solid #dddddd;
 	/*border: 1px solid red;*/
 	font-size: 20px;
-	line-height: 1.8;
+	line-height: 1.9;
 	overflow-y: scroll;
 }
 
 .credit {
 	clear: both;
+
+	position: absolute;
+	left: 5%;
+	bottom: 8%;
+}
+
+a {
+	text-decoration: none;
+	color: #2D1FE8;
+}
+
+a:hover {
+	text-decoration: underline;
 }
