@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0 5%;
+	background: #FAFAFA;
+}
+
+h1,
+h2,
+p {
+	font-family: "Helvetica Neue", "Arial", "Roboto", san-serif;
+}
+
+.header {
+	margin-top: 8%;
+}
+
+h1 {
+	display: inline-block;
+	margin: 0;
+	float: left;
+
+	font-size: 48px;
+	line-height: 56px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+button {
+	display: inline-block;
+	padding: 24px 60px;
+	float: right;
+
+	background: #2D1FE8;
+	color: #FFFFFF;
+
+	border: 0;
+	font-size: 22px;
+	font-weight: medium;
+	outline: none;
+
+	cursor: pointer;
+}
+
+.container {
+	clear: both;
+}
+
+.container .language {
+	display: inline-block;
+	width: 48%;
+	margin: 50px 0 0 0;
+}
+
+.language.original {
+	float: left;
+}
+
+.language.translated {
+	float: right;
+}
+
+textarea {
+	width: 100%;
+	height: 400px;
+	padding: 32px 44px;
+	
+	background: #ffffff;
+	border: 6px solid #dddddd;
+	
+	font-size: 20px;
+	outline: none;
+	
+	line-height: 1.9;
+}
+
+
+.translation {
+	width: 100%;
+	height: 400px;
+	background: #eeeeee;
+}
+
+p {
+	width: 100%;
+	height: 100%;
+	padding: 32px 44px;
+
+	border: 6px solid #dddddd;
+	/*border: 1px solid red;*/
+	font-size: 20px;
+	line-height: 1.9;
+	overflow-y: scroll;
+}
+
+.credit {
+	clear: both;
+
+	position: absolute;
+	left: 5%;
+	bottom: 8%;
+}
+
+a {
+	text-decoration: none;
+	color: #2D1FE8;
+}
+
+a:hover {
+	text-decoration: underline;
+}

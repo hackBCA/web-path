@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Translator</title>
+
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="main.css">
+
+    </head>
+    <body>
+        <div class="header">
+            <h1>Translator</h1>
+            <button onclick="englishToSpanish()">Translate</button>
+        </div>
+        <div class="container">
+            <div class="language original">
+                <h2>English</h2>
+                <textarea id="input"></textarea>
+            </div>
+            <div class="language translated">
+                <h2>Spanish</h2>
+                <div class="translation">
+                    <p id="output"></p>
+                </div>
+            </div>
+        </div>
+        <h2 class="credit">Made by <a href="">@jayhxmo</a></h2>
+
+        <script type="text/javascript" src="main.js"></script>
+        <script src="https://cdn.webrtc-experiment.com/Translator.js"> </script>
+
+    </body>
+</html>
