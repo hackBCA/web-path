@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0 8%;
+	background: #FFFFFF;
+	color: #262626;
+}
+
+h1,
+h2,
+p {
+	font-family: "Helvetica Neue", "Arial", "Roboto", san-serif;
+}
+
+h1 {
+	display: inline-block;
+	margin: 6.5% 0 0 0;
+
+	font-size: 48px;
+	line-height: 56px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+.half {
+	width: 50%;
+}
+
+.half.left {
+	float: left;
+}
+
+.half.right {
+	float: right;
+}
+
+div.resources {
+	margin: 50px 0 60px 0;
+}
+
+article {
+	margin: 20px 0 30px 0;
+}
+
+article h4 {
+	margin: 0;
+	font-size: 18px;
+}
+
+@media screen and (max-width: 51.25rem) {
+    .half {
+    	width: 100%;
+    	margin: 0;
+    	float: none;
+    }
+
+    h1 {
+    	font-size: 32px;
+    	line-height: 1.6;
+    }
+
+    h2 {
+    	font-size: 24px;
+    }
+
+    h4 {
+    	font-size: 14px;
+    }
+
+    p {
+    	font-size: 14px;
+    }
+
+    .article {
+    	margin: 0;
+    }
+
+    div.resources {
+    	margin: 40px 0 60px 0;
+    }
+
+}
+
+article p,
+article a {
+	width: 100%;
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+.help {
+	clear: both;
+}
+
+a,
+span {
+	text-decoration: none;
+	color: #2D1FE8;
+}
+
+a:hover,
+span:hover {
+	text-decoration: underline;
+}
